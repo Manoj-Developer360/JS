@@ -1,0 +1,1 @@
+JS file system module helps us store, access, and manage data on our operating system.
