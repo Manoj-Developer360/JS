@@ -1,0 +1,2 @@
+A JSON Web Token (JWT) is a compact, digitally signed token that securely transmits information between two parties. 
+JWTs are commonly used to authenticate users and authorize access to services
