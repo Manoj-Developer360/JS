@@ -1,0 +1,13 @@
+In object-oriented programming, an object method is a function that is associated with an object and 
+defines the actions or behaviors that the object can perform.
+
+Methods for Defining JavaScript Objects
+
+Using an Object Literal
+Using the new Keyword
+Using an Object Constructor
+Using Object.assign()
+Using Object.create()
+Using Object.fromEntries()
+
+
