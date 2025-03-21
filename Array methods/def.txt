@@ -1,0 +1,2 @@
+An array is a collection of data organized in a systematic way, such as in rows and columns. 
+In computer science, an array is a data structure that stores values or variables
