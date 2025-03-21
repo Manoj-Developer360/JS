@@ -1,0 +1,14 @@
+Scope means Let Var Const
+
+var: Declares variables with function or global scope and allows re-declaration and updates within the same scope.
+let: Declares variables with block scope, allowing updates but not re-declaration within the same block.
+const: Declares block-scoped variables that cannot be reassigned after their initial assignment
+
+
+Summary Table
+
+Feature	var	let	const
+Scope	Function	Block	Block
+Reassign?	✅ Yes	✅ Yes	❌ No
+Redeclare?	✅ Yes	❌ No	❌ No
+Hoisting?	✅ Yes (initialized as undefined)	✅ Yes (but not initialized)	✅ Yes (but not initialized)
