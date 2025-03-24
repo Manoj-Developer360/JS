@@ -1,0 +1,14 @@
+RESTful web services support total client-server separation. 
+They simplify and decouple various server components so that each part can evolve independently
+REST (Representational State Transfer) is an architectural style for designing networked applications, not a protocol itself, 
+that relies on HTTP for communication and uses principles like client-server architecture, statelessness, and a uniform interface
+
+
+HTTP Methods in REST:
+
+RESTful APIs use standard HTTP methods (verbs) to perform operations on resources: 
+GET: Retrieves a representation of a resource.
+POST: Creates a new resource.
+PUT: Replaces an entire resource.
+PATCH: Partially modifies a resource.
+DELETE: Deletes a resource.
