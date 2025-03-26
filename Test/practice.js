@@ -55,8 +55,6 @@ console.log(z)
 
 
 
-
-
 // Write a function to find sum of digits of a given number. 12 must return 1+2 which is 3. 23 must return 5
 
 //  declare function sumofdigits 
@@ -69,8 +67,6 @@ console.log(z)
 // store the sum array
 // return the result
 // call the function using console.log with array input
-
-
 
 
 let sumofdigits = function(arr){
@@ -88,6 +84,29 @@ console.log(sumofdigits([10,12,23,45]))
 
 
 
+// loop
 
+
+let sumOfDigits = function(arr){
+    let result = []
+    for (let num of arr){
+        let sum = 0
+        for (let digit of num.toString()){
+            if (!isNaN(digit)){ 
+                sum += Number(digit)
+            }
+        }
+        while (sum > 9){ 
+            let tempsum = 0
+            for (let digit of sum.toString()){
+                tempsum += Number(digit)
+            }
+            sum=tempsum
+        }
+        result.push(sum)
+    }
+    return result
+}
+console.log(sumOfDigits(["9999999999999999999999999999999"]))
 
 
