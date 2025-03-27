@@ -107,6 +107,6 @@ let sumOfDigits = function(arr){
     }
     return result
 }
-console.log(sumOfDigits(["9999999999999999999999999999999"]))
+console.log(sumOfDigits(["9999999999999999999999999999999999999"]))
 
 
